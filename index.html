@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm sticky-top">
+  <div class="container">
+    
+    <a class="navbar-brand fs-3 fw-bold text-dark brand-glow" href="#hero">
+      MyPortfolio
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#hero">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="hero" class="d-flex align-items-center" 
+style="min-height: 100vh; background: linear-gradient(135deg, #f0f7ff, #ffffff);">
+  <div class="container text-center">
+
+    <h1 class="fw-bold display-4 mb-3">
+      Hi, I'm <span class="text-primary">Shanmuga Priyan</span>
+    </h1>
+
+    <h3 class="text-secondary mb-3">
+      Frontend Developer (Beginner)
+    </h3>
+
+    <p class="lead mb" style="max-width: 600px; margin: auto;">
+      I build simple and clean user interfaces using HTML, CSS, Bootstrap, JavaScript, 
+      and React. I’m currently improving my frontend skills by creating practice UI designs 
+      and small projects.
+    </p>
+
+    <div class="mt-3">
+      <a href="#projects" class="btn btn-primary btn-lg px-4 me-3">View Projects</a>
+      <a href="#contact" class="btn btn-outline-primary btn-lg px-4">Contact Me</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <h2>About Me</h2>
+
+    <p>
+      I’m a fresher frontend developer with knowledge in 
+      <b>HTML, CSS, Bootstrap, JavaScript, and React</b>. 
+      I enjoy building clean and simple user interfaces and I constantly 
+      practice small UI layouts to improve my skills. 
+      My goal is to become a full-stack developer and work on 
+      real-world projects.
+    </p>
+  </div>
+</section>
+
+<!-- SKILL SECTION -->
+
+<section id="skills" class="skills-section">
+  <div class="skills-container">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <!-- HTML -->
+      <div class="skill-card">
+        <div class="skill-icon">HTML</div>
+        <h3>HTML</h3>
+        <p>Structure of web pages, basic tags, forms and simple layouts.</p>
+        <span class="level-tag">Beginner</span>
+      </div>
+
+      <!-- CSS -->
+      <div class="skill-card">
+        <div class="skill-icon">CSS</div>
+        <h3>CSS</h3>
+        <p>Styling, colors, fonts, spacing and basic responsive layouts.</p>
+        <span class="level-tag">Beginner</span>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="skill-card">
+        <div class="skill-icon">JS</div>
+        <h3>JavaScript</h3>
+        <p>Basic DOM handling, events and simple interactive behaviour.</p>
+        <span class="level-tag">Beginner</span>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="skill-card">
+        <div class="skill-icon">B</div>
+        <h3>Bootstrap</h3>
+        <p>Using components, grid system and ready-made classes for layout.</p>
+        <span class="level-tag">Beginner</span>
+      </div>
+
+      <!-- React -->
+      <div class="skill-card">
+        <div class="skill-icon">⚛</div>
+        <h3>React</h3>
+        <p>Basic components, props and understanding of single page UIs.</p>
+        <span class="level-tag">Beginner</span>
+      </div>
+
+    </div>
+
+    <!-- Tools Section -->
+    <div class="tools-box">
+      <h3>Tools (Beginner)</h3>
+      <p>Git & GitHub · VS Code </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJECT SECTION -->
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      
+      <!-- Project 1: ATS Score Generator -->
+      <div class="project-card">
+        <h3>ATS Score Generator</h3>
+        <p>
+          A web app that compares a resume with a job description and generates an ATS score 
+          based on keyword matching and text similarity. Built to understand how resume 
+          screening works.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Flask</span>
+        </div>
+        <a href="#" class="project-btn" target="_blank">View Project </a>
+        <a href="https://shanmuga9786.github.io/ATS-SCORE-GENARATOR/" class="project-btn" target="_blank">
+          Live Project (Demo)
+        </a>
+      </div>
+
+      <!-- Project 2: Portfolio Website -->
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          A personal portfolio website to showcase my skills, projects, and learning journey. 
+          Designed with a clean layout and smooth navigation for a simple user experience.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Bootstrap</span>
+          <span>JavaScript</span>
+        </div>
+        <a href="#" class="project-btn" target="_blank">View Project</a>
+      </div>
+
+      <!-- Project 3: Fashion Store -->
+      <div class="project-card">
+        <h3>Fashion Store</h3>
+        <p>
+          A simple fashion store UI with product cards and sections to explore items. 
+          Built to practice layout, spacing, and basic e-commerce style design.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+        <a href="https://shanmuga9786.github.io/Fashion-Store/" class="project-btn" target="_blank">
+          Live Project
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section py-5 d-flex align-items-center">
+  <div class="container text-center">
+
+    <h2 class="mb-4 text-primary fw-bold">Contact Me</h2>
+
+    <p class="lead mb-4 text-muted">
+      Feel free to reach out for opportunities, collaborations, or questions.
+    </p>
+
+    <!-- Contact Icons -->
+    <div class="contact-icons mb-4">
+
+      <!-- Email -->
+      <a href="mailto:shanmugapriyan1307@gmail.com" class="contact-link">
+        <i class="bi bi-envelope-fill"></i>
+        <span>Email</span>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/shanmuga9786" target="_blank" class="contact-link">
+        <i class="bi bi-github"></i>
+        <span>GitHub</span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com" target="_blank" class="contact-link">
+        <i class="bi bi-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+
+      <!-- Phone -->
+      <a href="tel:+91XXXXXXXXXX" class="contact-link">
+        <i class="bi bi-telephone-fill"></i>
+        <span>Call</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer py-3">
+  <div class="container text-center">
+    <p class="m-0 text-muted">
+      © 2025 Shanmuga Priyan — All Rights Reserved
+    </p>
+  </div>
+</footer>
+
+
+
+</body>
+<script src="script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
